@@ -1,0 +1,13 @@
+.chart{
+    transition: transform 0.5s ease;
+    transition: background-color 0.5 ease;
+    background-color: white;
+    
+}
+.chart:hover{
+   transform: scale(1.04);
+   background-color: rgb(241, 238, 238);
+}
+.line{
+    /* background-color: rgb(217, 206, 228); */
+}

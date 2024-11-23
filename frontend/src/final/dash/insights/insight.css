@@ -1,0 +1,9 @@
+.insight{
+    transition: transform 0.5s ease;
+    transition: background-color 0.5 ease;
+    background-color: white;
+}
+.insight:hover{
+    transform: scale(1.04);
+    background-color: rgb(244, 241, 244);
+}

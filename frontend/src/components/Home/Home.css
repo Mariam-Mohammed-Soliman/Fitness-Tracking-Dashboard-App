@@ -1,0 +1,266 @@
+
+
+.home-body {
+  margin: 0;
+  background: #f0f0f0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+  --shimmer-hue-1: 213deg;
+  --shimmer-sat-1: 95%;
+  --shimmer-lit-1: 91%;
+
+  --shimmer-hue-2: 248deg;
+  --shimmer-sat-2: 100%;
+  --shimmer-lit-2: 86%;
+
+  --shimmer-hue-3: 293deg;
+  --shimmer-sat-3: 78%;
+  --shimmer-lit-3: 89%;
+
+  --bg: #fff;
+  --glow-hue: 222deg;
+  --spring-easing: cubic-bezier(0.5, 1.5, 0.5, 1);
+  --spring-duration: 2s;
+}
+
+.glow-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to right, white, #91ade8);
+}
+
+.small-image {
+  position: absolute;
+  top: -230px;
+  left: -190px;
+  width: 500px;
+  height: 500px;
+  z-index: 3;
+}
+
+.large-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.large-image dotlottie-player {
+  width: 100%;
+  height: 100%;
+}
+
+.welcome-container {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 60%;
+  white-space: normal;
+  z-index: 2;
+}
+
+.welcome-text h2 {
+  font-weight: 700;
+  line-height: 1.025;
+  overflow: visible;
+  background: linear-gradient(50deg, #8a0d8c, #f4a3ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: clamp(2.1rem, 1.75rem + 1.4vw, 4.2rem);
+  margin: 0;
+  white-space: normal;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+
+
+.mast__text {
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-weight: bold;
+  font-size: 1.4rem;
+  width: 80%;
+  margin: 2rem 0 0 1rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  color: rgb(124, 124, 124);
+ 
+ 
+}
+
+.mast__text span {
+  opacity: 1;
+}
+
+
+
+.button-container {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.home-btn {
+  color: var(--bg);
+  background-image: linear-gradient(
+    315deg,
+    hsl(var(--shimmer-hue-1), var(--shimmer-sat-1), var(--shimmer-lit-1)) 0%,
+    hsl(var(--shimmer-hue-2), var(--shimmer-sat-2), var(--shimmer-lit-2)) 47%,
+    hsl(var(--shimmer-hue-3), var(--shimmer-sat-3), var(--shimmer-lit-3)) 100%
+  );
+  padding: 0.75em 2em;
+  position: relative;
+  isolation: isolate;
+  border: none;
+  outline: none;
+  border-radius: 0.66em;
+  transform: scale(1);
+  transition: all var(--spring-duration) var(--spring-easing);
+  text-transform: unset;
+  font-weight: 600;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-size: 200% 200%;
+  box-shadow: 0 1px 2px 0.5px hsl(var(--glow-hue), 50%, 20% / 30%);
+}
+
+.signup-button {
+  margin-left: 60px;
+}
+
+.shimmer {
+  position: absolute;
+  inset: -40px;
+  border-radius: inherit;
+  mix-blend-mode: color-dodge;
+  pointer-events: none;
+}
+
+.shimmer::before,
+.shimmer::after {
+  transition: all 0.5s ease;
+  opacity: 0;
+  content: '';
+  border-radius: inherit;
+  position: absolute;
+  inset: 40px;
+}
+
+.shimmer::before {
+  box-shadow:
+    0 0 2px 1px hsl(var(--shimmer-hue-1), 20%, 95%),
+    0 0 5px 3px hsl(var(--shimmer-hue-1), 20%, 80%),
+    0 0 10px 6px hsl(var(--shimmer-hue-2), 40%, 60%),
+    0 0 18px 4px hsl(var(--shimmer-hue-2), 20%, 40%);
+  z-index: -1;
+}
+
+.shimmer::after {
+  box-shadow:
+    inset 0 0 0 1px hsl(var(--shimmer-hue-2), 70%, 95%),
+    inset 0 0 2px 1px hsl(var(--shimmer-hue-2), 100%, 80%),
+    inset 0 0 7px 1px hsl(var(--shimmer-hue-2), 100%, 70%);
+  z-index: 2;
+}
+
+button:hover:not(:active):not([disabled]) {
+  transform: scale(1.1);
+  transition-duration: calc(var(--spring-duration) * 0.5);
+}
+
+button:active:not([disabled]) {
+  transform: scale(1.05);
+  transition-duration: calc(var(--spring-duration) * 0.5);
+}
+
+button:hover:not([disabled]) .shimmer::before,
+button:hover:not([disabled]) .shimmer::after {
+  opacity: 1;
+}
+
+button .text {
+  color: transparent;
+  background-color: var(--bg);
+  background-image: linear-gradient(
+    120deg,
+    transparent,
+    hsla(var(--shimmer-hue-1), 100%, 80%, 0.66) 40%,
+    hsla(var(--shimmer-hue-2), 100%, 90%, 0.9) 50%,
+    transparent 52%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-repeat: no-repeat;
+  background-size: 300% 300%;
+  background-position: center 200%;
+}
+
+button[data-effect='wave'] .shimmer {
+  mask-image: linear-gradient(
+    90deg,
+    transparent 15%,
+    black 45%,
+    black 55%,
+    transparent 85%
+  );
+  mask-size: 200% 200%;
+  mask-position: center;
+  animation: wipe 5s linear infinite both -0.5s;
+}
+
+button .shimmer::before,
+button .shimmer::after {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .large-image {
+    width: 60%;
+  }
+
+  .welcome-container {
+    max-width: 90%;
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .large-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  .welcome-container {
+    position: relative;
+    left: 0;
+    top: auto;
+    transform: none;
+    max-width: 100%;
+    padding: 0 1rem;
+    margin-top: 2rem;
+  }
+
+  .welcome-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .mast__text {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .small-image {
+    display: none;
+  }
+}

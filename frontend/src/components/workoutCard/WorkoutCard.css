@@ -1,0 +1,28 @@
+.workout-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px #f2b1e8 !important;
+    border-radius: 50px !important;
+    padding: 16px;
+    height: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform  0.5s ease-in-out;
+  }
+  .workout-card:hover{
+    background-color: #efefef;
+    transform: scale(1.06);
+  }
+  h4, .date{
+    color: #a43d94 !important;
+  }
+  .data{
+    font-weight: 500 !important;
+  }
+  .activities {
+    margin-top: 10px;
+  }
+  
+  .activity {
+    margin-bottom: 10px;
+  }  

@@ -1,0 +1,18 @@
+body {
+    background-color: #edeaea;
+    width: 100%; /* Use full width */
+    margin: 0; /* Reset margins to prevent overflow */
+    height: 100vh; /* Full viewport height */
+    overflow: auto; /* Allow scrolling */
+}
+
+.dash {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Width of the dashboard */
+    height: auto; /* Allow the height to expand */
+    margin: 0; 
+    margin-left: 14%;
+   /* Center horizontally and add top margin */
+    padding-bottom: 20px; /* Add some padding at the bottom */
+}

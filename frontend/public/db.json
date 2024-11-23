@@ -1,0 +1,338 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "sara emad",
+      "email": "sara@gmail.com",
+      "currantweight": "65",
+      "targetedweight": "55",
+      "workout": "100",
+      "dailyhydrated": "40%",
+      "age": "23",
+      "password": "12345",
+      "dailySteps": "",
+      "dailyCaloriesIntake": "",
+      "dailyCaloriesBurned": "",
+      "height": "159",
+      "gender": " female",
+      "activity": [
+        {
+          "activity": "Running",
+          "duration": "30 minutes",
+          "burnedCalories": 300,
+          "date": "21/7"
+        },
+        {
+          "activity": "Running",
+          "duration": "30 minutes",
+          "burnedCalories": 300,
+          "date": "21/7"
+        },
+        {
+          "activity": "Running",
+          "duration": "30 minutes",
+          "burnedCalories": 300,
+          "date": "21/7"
+        },
+        {
+          "activity": "Running",
+          "duration": "30 minutes",
+          "burnedCalories": 300,
+          "date": "21/7"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "username": "berry",
+      "email": "berry@gmail.com",
+      "currantweight": "50",
+      "targetedweight": "55",
+      "workout": "90",
+      "dailyhydrated": "60%",
+      "age": "21",
+      "password": "12341",
+      "dailySteps": "",
+      "dailyCaloriesIntake": "",
+      "dailyCaloriesBurned": "",
+      "height": "155",
+      "gender": " female ",
+      "activity": [
+        {
+          "activity": "Running",
+          "duration": "30 minutes",
+          "burnedCalories": 300,
+          "date": "21/7"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "username": "imegre",
+      "email": "hager@gmail.com",
+      "currantweight": "69",
+      "targetedweight": "55",
+      "workout": "100",
+      "dailyhydrated": "50%",
+      "age": "25",
+      "password": "12349",
+      "dailySteps": "",
+      "dailyCaloriesIntake": "",
+      "dailyCaloriesBurned": "",
+      "height": "159",
+      "gender": " female ",
+      "activity": [
+        {
+          "activity": "Running",
+          "duration": "30 minutes",
+          "burnedCalories": 300,
+          "date": "21/7"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "username": "Basmalla Mahmoud",
+      "email": "basmala@gmail.com",
+      "currantweight": "65",
+      "targetedweight": "50",
+      "workout": "16",
+      "dailyhydrated": "70%",
+      "age": "22",
+      "password": "12348",
+      "dailySteps": "",
+      "dailyCaloriesIntake": "1556",
+      "dailyCaloriesBurned": "550",
+      "height": "170",
+      "gender": "female ",
+      "activity": [
+        {
+          "id": "1",
+          "activity": "Running",
+          "duration": "30 minutes",
+          "burnedCalories": "344",
+          "caloriesIntake": 1700,
+          "waterIntake(l)": 1.5,
+          "stepsCount": 5000,
+          "date": "8/10",
+          "waterIntake": "1.9"
+        },
+        {
+          "id": "2",
+          "activity": "Running",
+          "duration": "90 minutes",
+          "burnedCalories": 300,
+          "caloriesIntake": "1900",
+          "waterIntake": "1.7",
+          "stepsCount": 5000,
+          "date": "4/10"
+        },
+        {
+          "id": "3",
+          "activity": "Running",
+          "duration": "90 minutes",
+          "burnedCalories": 257,
+          "caloriesIntake": "1600",
+          "waterIntake": "1",
+          "stepsCount": 5000,
+          "date": "2/10"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "username": "farah",
+      "email": "farah@gmail.com",
+      "currantweight": "35",
+      "targetedweight": "55",
+      "workout": "90",
+      "dailyhydrated": "70%",
+      "age": "18",
+      "password": "12347",
+      "dailySteps": "",
+      "dailyCaloriesIntake": "1300",
+      "dailyCaloriesBurned": "700",
+      "height": "155",
+      "gender": " female ",
+      "activity": [
+        {
+          "activity": "Running",
+          "duration": "30 minutes",
+          "burnedCalories": 300,
+          "date": "21/7",
+          "caloriesIntake": "1600",
+          "waterIntake": "1.7"
+        }
+      ]
+      
+    },
+    {
+      "id": "6",
+      "username": "ali",
+      "email": "ali@gmail.com",
+      "currantweight": "90",
+      "targetedweight": "75",
+      "workout": "100",
+      "dailyhydrated": "30%",
+      "age": "19",
+      "password": "12344",
+      "dailySteps": "",
+      "dailyCaloriesIntake": "",
+      "dailyCaloriesBurned": "900",
+      "height": "188",
+      "gender": " female ",
+      "activity": [
+        {
+          "activity": "Running",
+          "duration": "30",
+          "burnedCalories": 300,
+          "date": "21/7"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "username": "maged jakson",
+      "email": "maged@gmail.com",
+      "currantweight": "97",
+      "targetedweight": "80",
+      "workout": "100",
+      "dailyhydrated": 3.5,
+      "age": "29",
+      "password": "12346",
+      "dailySteps": "10000",
+      "dailyCaloriesIntake": "2300",
+      "dailyCaloriesBurned": "900",
+      "height": "178",
+      "gender": " male ",
+      "activity": [
+        {
+          "activity": "GYM",
+          "duration": "68",
+          "burnedCalories": 530,
+          "date": "2024-9-27",
+          "caloriesIntake": "2350",
+          "waterIntake": 2.6,
+          "stepsCount": "2400"
+        },
+        {
+          "activity": "Running",
+          "duration": "47",
+          "burnedCalories": 690,
+          "date": "2024-9-28",
+          "caloriesIntake": "1790",
+          "waterIntake": 1.8,
+          "stepsCount": "1870"
+        },
+        {
+          "activity": "Running",
+          "duration": "105",
+          "burnedCalories": 800,
+          "date": "2024-9-29",
+          "caloriesIntake": "2900",
+          "waterIntake": 3,
+          "stepsCount": "4500"
+        },
+        {
+          "activity": "Cycling",
+          "duration": "25",
+          "burnedCalories": 260,
+          "date": "2024-9-30",
+          "caloriesIntake": "1890",
+          "waterIntake": 2.4,
+          "stepsCount": "12800"
+        },
+        {
+          "activity": "Running",
+          "duration": "67",
+          "burnedCalories": 540,
+          "date": "2024-10-1",
+          "caloriesIntake": "2300",
+          "waterIntake": 2.6,
+          "stepsCount": 4360
+        },
+        {
+          "activity": "GYM",
+          "duration": "140",
+          "burnedCalories": 750,
+          "date": "2024-10-2",
+          "caloriesIntake": "2500",
+          "waterIntake": 2.8,
+          "stepsCount": "6790"
+        },
+        {
+          "activity": "Running",
+          "duration": "49",
+          "burnedCalories": 800,
+          "date": "2024-10-3",
+          "caloriesIntake": "2240",
+          "waterIntake": 2.2,
+          "stepsCount": 1980
+        },
+        {
+          "activity": "Cycling",
+          "duration": "54",
+          "burnedCalories": 670,
+          "date": "2024-10-4",
+          "caloriesIntake": "1940",
+          "waterIntake": 4.1,
+          "stepsCount": 2450
+        },
+        {
+          "activity": "Running",
+          "duration": "80",
+          "burnedCalories": 670,
+          "date": "2024-10-5",
+          "caloriesIntake": "2500",
+          "waterIntake": 1.6,
+          "stepsCount": 6780
+        },
+        {
+          "activity": "Other",
+          "duration": "75 ",
+          "burnedCalories": 560,
+          "date": "2024-10-6",
+          "caloriesIntake": "2400",
+          "waterIntake": 1.4,
+          "stepsCount": 3900
+        },
+        {
+          "activity": "Running",
+          "duration": "15 ",
+          "burnedCalories": 200,
+          "date": "2024-10-7",
+          "caloriesIntake": "2700",
+          "waterIntake": 2.6,
+          "stepsCount": 8750
+        },
+        {
+          "activity": "Other",
+          "duration": "34",
+          "burnedCalories": 300,
+          "date": "2024-10-8",
+          "caloriesIntake": "2500",
+          "waterIntake": 2.6,
+          "stepsCount": 4600
+        },
+        {
+          "activity": "GYM",
+          "duration": "200",
+          "burnedCalories": 900,
+          "date": "2024-10-9",
+          "caloriesIntake": "1600",
+          "waterIntake": 2.1,
+          "stepsCount": 13000
+        },
+        {
+          "activity": "Other",
+          "duration": "90",
+          "burnedCalories": 680,
+          "date":"2024-10-10",
+          "caloriesIntake": "1600",
+          "waterIntake": 3,
+          "stepsCount": 15800
+        }
+      ]
+    }
+  ]
+}

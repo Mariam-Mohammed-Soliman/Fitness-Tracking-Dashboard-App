@@ -1,0 +1,71 @@
+.addBtn {
+    width: 90%;
+    height: 50% !important;
+    color: rgb(255, 255, 255);
+    border: none;
+   border-radius:100px !important; 
+    cursor: pointer;
+    margin: 2%;
+
+    font-weight: bold;
+    transition: background-color 0.3s;
+    transition: transform 0.5s ease;;
+    animation: gradientAnimation 5s ease infinite; 
+    background: linear-gradient(270deg, #9cabcb, #f9b8e6, #d497f9, #c5d7e5);
+  background-size: 800% 800%;
+}
+.add-card{
+   border-radius:100px !important; 
+  border: 3px,ridge rgb(220, 174, 215) !important;
+  width: 100% ;
+  padding: 1%;
+}
+.add-card:hover{
+  
+  background-color: rgb(241, 238, 238);
+}
+p{
+  color:#868687
+}
+.overlay {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 999; }
+
+.activity-form-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000; 
+  background: white; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+.addBtn:hover {
+    transform: scale(1.04);
+
+}
+

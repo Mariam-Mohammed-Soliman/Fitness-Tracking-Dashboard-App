@@ -1,0 +1,85 @@
+
+   /* General Styles */
+/* General Styles */
+body {
+  background-color: #f5f5f5;
+}
+.userpro{
+  color:#a43d94 !important;
+  font-weight: 700;
+}
+.container {
+  max-width: 1000px;
+}
+
+/* Card Style */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* User Info Styling */
+.userinfo h5 {
+  font-size: 1rem;
+  color: #444;
+}
+
+.data {
+  color: #a43d94;
+}
+.user-line{
+  display: flex;
+  align-items: center;
+}
+h2{
+ color: #2a2929 !important;
+  white-space: nowrap;
+
+}
+.line{
+  flex-grow: 1;
+height: 2%;
+background-color: #444;
+  vertical-align: middle;
+}
+.profile-card{
+  border-radius: 50px !important;
+}
+.edit-btn {
+  background-color: #98378a !important;
+  color: white;
+  opacity: .9;
+  border: none;
+  border-radius: 8px;
+  padding: 3%;
+ border-radius: 40px;
+  transition: all 0.5s ease; 
+  a {
+      text-decoration: none;
+      color: white;
+  }
+  
+}
+.edit-btn a{ 
+  text-decoration: none;
+
+}
+
+.edit-btn:hover{
+   opacity: 1;
+   cursor: pointer;
+   
+}
+.edit-btn:hover {
+ transform: scale(1.04);
+}
+.main-row{
+  background-color: white;
+}
+/* Responsive Behavior */
+@media (max-width: 767px) {
+  .userinfo h5 {
+    font-size: 0.9rem;
+  }
+}
